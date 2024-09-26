@@ -19,7 +19,7 @@ export const HeroSection = () => {
         <div className="size-[620px] hero-ring"></div>
         <div className="size-[820px] hero-ring"></div>
         <div className="size-[1020px] hero-ring"></div>
-        <div className="size-[1220px] hero-ring"></div>
+        <div className="size-[1200px] hero-ring"></div>
         <HeroOrbit
           size={430}
           rotation={-14}
@@ -108,12 +108,14 @@ export const HeroSection = () => {
             <div className="text-sm font-medium">Available for new project</div>
           </div>
         </div>
-        <h1 className="font-serif text-3xl text-center mt-8 tracking-wide">
-          Building Exceptional User Experience
-        </h1>
-        <p className="mt-4 text-center text-white/60 md:text-lg">
-          i specialize bla blabalablalab
-        </p>
+        <div className="max-w-lg mx-auto">
+          <h1 className="font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide">
+            Building Exceptional User Experience
+          </h1>
+          <p className="mt-4 text-center text-white/60 md:text-lg">
+            i specialize bla blabalablalab
+          </p>
+        </div>
         <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
           <button className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl">
             <span className="font-semibold">Explore My Work</span>
