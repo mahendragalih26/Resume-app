@@ -113,7 +113,8 @@ export const HeroSection = () => {
             Building Exceptional User Experience
           </h1>
           <p className="mt-4 text-center text-white/60 md:text-lg">
-            i specialize bla blabalablalab
+            Hi, I am a Software Engineer who has a strong interest in the
+            combination of colors, patterns, images, and animations
           </p>
         </div>
         <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
