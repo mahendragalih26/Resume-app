@@ -1,6 +1,11 @@
 import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png"
 import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png"
 import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png"
+
+import laporAja from "@/assets/images/porto/laporaja.png"
+import orion from "@/assets/images/porto/orion.png"
+import dokko from "@/assets/images/porto/dokko.png"
+
 import Image from "next/image"
 import CheckCircleIcon from "@/assets/icons/check-circle.svg"
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg"
@@ -9,40 +14,40 @@ import { Card } from "@/components/Card"
 import { SectionHeader } from "@/components/Sectionheader"
 const portfolioProjects = [
   {
-    company: "Acme Corp",
-    year: "2022",
-    title: "Dark Saas Landing Page",
+    company: "Telkom Indonesia",
+    year: "2019",
+    title: "Lapor Aja - HCIS app System ",
     results: [
       { title: "Enhanced user experience by 40%" },
       { title: "Improved site speed by 50%" },
       { title: "Increased mobile traffic by 35%" },
     ],
-    link: "https://youtu.be/4k7IdSLxh6w",
-    image: darkSaasLandingPage,
+    link: "https://laporaja.telkom.co.id",
+    image: laporAja,
   },
   {
-    company: "Innovative Co",
+    company: "MSIG Life",
     year: "2021",
-    title: "Light Saas Landing Page",
+    title: "Internal Web Apps",
     results: [
       { title: "Boosted sales by 20%" },
       { title: "Expanded customer reach by 35%" },
       { title: "Increased brand awareness by 15%" },
     ],
-    link: "https://youtu.be/7hi5zwO75yc",
-    image: lightSaasLandingPage,
+    link: "https://orion.msiglife.co.id/",
+    image: orion,
   },
   {
-    company: "Quantum Dynamics",
+    company: "dokko.id",
     year: "2023",
-    title: "AI Startup Landing Page",
+    title: "Startup Landing Page",
     results: [
       { title: "Enhanced user experience by 40%" },
       { title: "Improved site speed by 50%" },
       { title: "Increased mobile traffic by 35%" },
     ],
-    link: "https://youtu.be/Z7I5uSRHMHg",
-    image: aiStartupLandingPage,
+    link: "https://dokko.id",
+    image: dokko,
   },
 ]
 
