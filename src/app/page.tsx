@@ -5,6 +5,7 @@ import { ContactSection } from "@/sections/Contact"
 import { Footer } from "@/sections/Footer"
 import { Header } from "@/sections/Header"
 import { HeroSection } from "@/sections/Hero"
+import { HomePage } from "@/components/HomePage"
 import { ProjectsSection } from "@/sections/Projects"
 import { TapeSection } from "@/sections/Tape"
 import { TestimonialsSection } from "@/sections/Testimonials"
@@ -31,6 +32,15 @@ export default function Home() {
       </AnimatePresence>
       <Header />
       <HeroSection />
+      <HomePage
+        title={"Software Engineer"}
+        subtitle1={"Hello I'm"}
+        subtitle2={"Galih Mahendra"}
+        description={
+          "Hi, I am a Software Engineer who has a strong interest in the combination of colors, patterns, images, and animations"
+        }
+        usePhoto
+      />
       <ProjectsSection />
       <TapeSection />
       <TestimonialsSection />

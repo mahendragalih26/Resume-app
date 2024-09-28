@@ -3,6 +3,22 @@
 @tailwind utilities;
 
 @layer base {
+  /* .body {
+    @apply font-jetbrain bg-jetbrain text-white leading-loose;
+  } */
+
+  /* .h1 {
+    @apply text-[48px] xl:text-[80px] leading-[1.1] font-semibold;
+  }
+
+  .h2 {
+    @apply text-[36px] xl:text-[48px] leading-[1.1] font-semibold;
+  }
+
+  .h3 {
+    @apply text-[20px] xl:text-[24px] leading-[1.1] font-semibold;
+  } */
+
   .nav-item {
     @apply px-4 py-1.5 rounded-full text-white/70 text-sm font-semibold hover:bg-white/10  hover:text-white transition duration-300;
   }
