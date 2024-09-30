@@ -30,8 +30,8 @@ export const HomePage = ({
               usePhoto && "md:text-left"
             )}
           >
-            <span className="text-xl ">{title}</span>
-            <h1 className="h1 mb-6 text-[48px] xl:text-[80px] leading-[1.1] font-semibold">
+            <span className="text-lg md:text-xl">{title}</span>
+            <h1 className="h1 mb-6 text-3xl md:text-5xl leading-[1.1] font-semibold">
               {subtitle1} <br />{" "}
               <span className="text-accent">{subtitle2}</span>
             </h1>

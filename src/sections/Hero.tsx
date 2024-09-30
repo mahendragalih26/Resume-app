@@ -9,10 +9,11 @@ import SparkleIcon from "@/assets/icons/sparkle.svg"
 import HeroOrbit from "@/components/HeroOrbit"
 import Rounded from "@/components/RoundedButton"
 import { HomePage } from "../components/HomePage"
+import { Stats } from "./Stats"
 
 export const HeroSection = () => {
   return (
-    <div className="py-32 md:py-48 lg:py-60 relative z-0 overflow-x-clip">
+    <div className="py-24 md:py-40 lg:py-52 relative z-0 overflow-x-clip">
       <div className="absolute inset-0 [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_70%,transparent)]">
         <div
           className="absolute inset-0 -z-30 opacity-5"
@@ -103,12 +104,13 @@ export const HeroSection = () => {
       <div className="container">
         <HomePage
           title={"Hi, Welcome .."}
-          subtitle1={"Let`s Build Exceptional "}
+          subtitle1={"Let`s Build Exceptional"}
           subtitle2={"User Experience"}
           description={
             "Design with precision, innovate with purpose, and build a future that endures."
           }
         />
+        <Stats />
         {/* <div className="flex flex-col items-center">
           <Image
             src={memojiImage}
