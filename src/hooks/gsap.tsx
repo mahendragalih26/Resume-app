@@ -18,7 +18,7 @@ export const AnimatedText = ({ children }: ComponentPropsWithoutRef<"div">) => {
         ease: "power2.inOut",
       },
       {
-        markers: true,
+        markers: false,
       }
     )
   }, [])
