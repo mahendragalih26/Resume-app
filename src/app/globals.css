@@ -33,3 +33,7 @@
     @apply lg:max-w-5xl;
   }
 }
+
+.g_fadeIn {
+  @apply opacity-0;
+}

@@ -1,6 +1,7 @@
 import { Photo } from "@/components/Photo"
 import { Fragment, use } from "react"
 import { twMerge } from "tailwind-merge"
+import { AnimatedText } from "@/hooks/gsap"
 
 export const HomePage = ({
   title,
@@ -24,26 +25,28 @@ export const HomePage = ({
             "flex flex-col items-center justify-between "
           )}
         >
-          <div
-            className={twMerge(
-              "text-center order-2 md:order-none",
-              usePhoto && "md:text-left"
-            )}
-          >
-            <span className="text-lg md:text-xl">{title}</span>
-            <h1 className="h1 mb-6 text-3xl md:text-5xl leading-[1.1] font-semibold">
-              {subtitle1} <br />{" "}
-              <span className="text-accent">{subtitle2}</span>
-            </h1>
-            <p
+          <AnimatedText>
+            <div
               className={twMerge(
-                !usePhoto && "m-auto",
-                "max-w-[500px] mb-9 text-white/80"
+                "text-center order-2 md:order-none",
+                usePhoto && "md:text-left"
               )}
             >
-              {description}
-            </p>{" "}
-          </div>
+              <span className="text-lg md:text-xl">{title}</span>
+              <h1 className="h1 mb-6 text-3xl md:text-5xl leading-[1.1] font-semibold">
+                {subtitle1} <br />{" "}
+                <span className="text-accent">{subtitle2}</span>
+              </h1>
+              <p
+                className={twMerge(
+                  !usePhoto && "m-auto",
+                  "max-w-[500px] mb-9 text-white/80"
+                )}
+              >
+                {description}
+              </p>
+            </div>
+          </AnimatedText>
           {usePhoto && (
             <div className="order-1 md:order-none mb-8 md:mb-0">
               <Fragment>
