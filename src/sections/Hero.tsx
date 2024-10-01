@@ -8,10 +8,12 @@ import SparkleIcon from "@/assets/icons/sparkle.svg"
 // Import Components
 import HeroOrbit from "@/components/HeroOrbit"
 import Rounded from "@/components/RoundedButton"
+import { HomePage } from "../components/HomePage"
+import { Stats } from "./Stats"
 
 export const HeroSection = () => {
   return (
-    <div className="py-32 md:py-48 lg:py-60 relative z-0 overflow-x-clip">
+    <div className="py-24 md:py-40 lg:py-52 relative z-0 overflow-x-clip">
       <div className="absolute inset-0 [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_70%,transparent)]">
         <div
           className="absolute inset-0 -z-30 opacity-5"
@@ -97,8 +99,19 @@ export const HeroSection = () => {
           <StarIcon className="size-28 text-emerald-300" />
         </HeroOrbit>
       </div>
+      {/* <HomePage /> */}
+
       <div className="container">
-        <div className="flex flex-col items-center">
+        <HomePage
+          title={"Hi, Welcome .."}
+          subtitle1={"Let`s Build Exceptional"}
+          subtitle2={"User Experience"}
+          description={
+            "Design with precision, innovate with purpose, and build a future that endures."
+          }
+        />
+        <Stats />
+        {/* <div className="flex flex-col items-center">
           <Image
             src={memojiImage}
             className="size-[100px]"
@@ -119,11 +132,12 @@ export const HeroSection = () => {
             Hi, I am a Software Engineer who has a strong interest in the
             combination of colors, patterns, images, and animations
           </p>
-        </div>
+        </div> */}
+
         <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
           <Rounded backgroundColor="#22c55e">
             {/* <button className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl"> */}
-            <span className="font-semibold">Explore My Work</span>
+            <span className="font-semibold">Download CV</span>
             <ArrowDown className="size-4" />
             {/* </button> */}
           </Rounded>

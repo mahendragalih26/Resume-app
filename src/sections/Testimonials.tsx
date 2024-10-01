@@ -11,33 +11,27 @@ import { Fragment } from "react"
 
 const testimonials = [
   {
-    name: "Alex Turner",
-    position: "Marketing Manager @ TechStartups",
-    text: "Alex was instrumental in transforming our website into a powerful marketing tool. His attention to detail and ability to understand our brand is exceptional. We're thrilled with the results!",
+    name: "Nugroho Wicaksono",
+    position: "Games Partnership Manager at Nuon",
+    text: "I've had the pleasure of working alongside Galih for years and he has consistently demonstrated his unwavering dedication and hard work. Not only does Galih tackle tasks with unmatched enthusiasm, but his ability to quickly grasp new concepts and methodologies is truly remarkable. In addition to his professional prowess, Galih stands out as a genuinely friendly and amiable individual, always ready to offer a helping hand or share a kind word. I wholeheartedly recommend Galih to any team or organization looking for someone who brings both a strong work ethic and a positive attitude to the table.",
     avatar: memojiAvatar1,
   },
   {
-    name: "Olivia Green",
-    position: "Head of Design @ GreenLeaf",
-    text: "Working with Alex was a pleasure. His expertise in frontend development brought our designs to life in a way we never imagined. The website has exceeded our expectations.",
+    name: "Najibullah Rizqy Fathoni",
+    position: "Mobile Developer",
+    text: "I highly recommend Galih as Frontend Developer. He is very passionate and has great vision for his work. His focus keeps everything moving smoothly, he makes sure all the deadlines are met, and makes sure that whatever project he is working on meets the highest standards.",
     avatar: memojiAvatar2,
   },
   {
-    name: "Daniel White",
-    position: "CEO @ InnovateCo",
-    text: "Alex's ability to create seamless user experiences is unmatched. Our website has seen a significant increase in conversions since launching the new design. We couldn't be happier.",
+    name: "Septian Reza Andrianto",
+    position: "Software Engineer | MSIG life",
+    text: "Mas Galih and I work together at Sinarmas MSIG, He is a front end engineer, I'm not in doubt with his skills. He can make good vibes when the team feels burnout. He has good communication, so make integrate process so easy. He can complete the job quickly and well. He always support us when we got the trouble. I hope someday we can work together again.",
     avatar: memojiAvatar3,
   },
   {
-    name: "Emily Carter",
-    position: "Product Manager @ GlobalTech",
-    text: "Alex is a true frontend wizard. He took our complex product and transformed it into an intuitive and engaging user interface. We're already seeing positive feedback from our customers.",
-    avatar: memojiAvatar4,
-  },
-  {
-    name: "Michael Brown",
-    position: "Director of IT @ MegaCorp",
-    text: "Alex's work on our website has been nothing short of exceptional. He's a talented developer who is also a great communicator. We highly recommend him.",
+    name: "Mohammad Fachmi Firmansyah",
+    position: "Software Engineer | UI Developer | Creative Tech Enthusiast",
+    text: "Good working adaptation",
     avatar: memojiAvatar5,
   },
 ]

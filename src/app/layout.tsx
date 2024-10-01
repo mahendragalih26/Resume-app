@@ -1,5 +1,5 @@
 import type { Metadata } from "next"
-import { Inter, Calistoga } from "next/font/google"
+import { Inter, Calistoga, JetBrains_Mono } from "next/font/google"
 import "./globals.css"
 import { twMerge } from "tailwind-merge"
 
@@ -8,6 +8,10 @@ const calistoga = Calistoga({
   subsets: ["latin"],
   variable: "--font-serif",
   weight: ["400"],
+})
+const jetbrainsMono = JetBrains_Mono({
+  subsets: ["latin"],
+  variable: "--font-jetbrainsMono",
 })
 
 export const metadata: Metadata = {
@@ -26,6 +30,7 @@ export default function RootLayout({
         className={twMerge(
           inter.variable,
           calistoga.variable,
+          jetbrainsMono.variable,
           "bg-gray-900 text-white antialiased font-sans"
         )}
       >

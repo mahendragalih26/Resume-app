@@ -24,6 +24,14 @@ const config: Config = {
       fontFamily: {
         sans: "var(--font-sans)",
         serif: "var(--font-serif)",
+        jetbrain: "var(--font-jetbrainsMono)",
+      },
+      colors: {
+        jetbrain: "#1c1c22",
+        accent: {
+          DEFAULT: "#00ff99",
+          hover: "#00e187",
+        },
       },
       animation: {
         "ping-large": "ping-large 1s ease-in-out infinite",
