@@ -26,7 +26,7 @@ export default function Home() {
   }, [])
 
   return (
-    <div>
+    <>
       <AnimatePresence mode="wait">
         {isLoading && <Preloader />}
       </AnimatePresence>
@@ -53,6 +53,6 @@ export default function Home() {
         <ContactSection />
       </div>
       <Footer />
-    </div>
+    </>
   )
 }
