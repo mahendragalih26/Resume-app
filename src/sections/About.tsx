@@ -27,6 +27,9 @@ const hobbies = [
   { title: "Swimming", emoji: "🏊‍♀️", left: "5%", top: "5%" },
   { title: "Photogrphy", emoji: "📷", left: "50%", top: "5%" },
   { title: "Gaming", emoji: "🎮", left: "10%", top: "35%" },
+  { title: "Mountain Biking", emoji: "🚵‍♀️", left: "20%", top: "50%" },
+  { title: "Aerial", emoji: "✈️", left: "30%", top: "15%" },
+  { title: "Mountain Climber", emoji: "🧗‍♀️", left: "60%", top: "50%" },
 ]
 
 export const AboutSection = () => {
