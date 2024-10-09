@@ -2,6 +2,7 @@ import React, { useEffect, useRef, ReactNode } from "react"
 import styles from "./style.module.scss"
 import gsap from "gsap"
 import Magnetic from "../Magnetic"
+import { twMerge } from "tailwind-merge"
 
 interface ButtonProps {
   children: ReactNode

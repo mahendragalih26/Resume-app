@@ -26,7 +26,7 @@ export default function Home() {
   }, [])
 
   return (
-    <div>
+    <>
       <AnimatePresence mode="wait">
         {isLoading && <Preloader />}
       </AnimatePresence>
@@ -41,12 +41,18 @@ export default function Home() {
         }
         usePhoto
       />
-      <ProjectsSection />
+      <div id="project" className="pt-14 md:pt-0">
+        <ProjectsSection />
+      </div>
       <TapeSection />
       <TestimonialsSection />
-      <AboutSection />
-      <ContactSection />
+      <div id="about" className="pt-14 md:pt-0">
+        <AboutSection />
+      </div>
+      <div id="contact" className="pt-14 md:pt-0">
+        <ContactSection />
+      </div>
       <Footer />
-    </div>
+    </>
   )
 }
