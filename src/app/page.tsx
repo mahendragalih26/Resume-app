@@ -11,6 +11,9 @@ import { TapeSection } from "@/sections/Tape"
 import { TestimonialsSection } from "@/sections/Testimonials"
 import { AnimatePresence } from "framer-motion"
 import { useEffect, useState } from "react"
+import dynamic from "next/dynamic"
+
+const Canvas3D = dynamic(() => import("@/components/3dModel"), { ssr: false })
 
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true)
@@ -30,6 +33,7 @@ export default function Home() {
       <AnimatePresence mode="wait">
         {isLoading && <Preloader />}
       </AnimatePresence>
+      <Canvas3D />
       <Header />
       <HeroSection />
       <HomePage
