@@ -15,7 +15,7 @@ const jetbrainsMono = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
-  title: "My Portfolio",
+  title: "Galih Mahendra | Welcome",
   description: "Created with the help of Frontend Tribe",
 }
 
