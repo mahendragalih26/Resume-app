@@ -48,7 +48,9 @@ export default function Home() {
       <div id="project" className="pt-14 md:pt-0">
         <ProjectsSection />
       </div>
-      <TapeSection />
+      <div className="relative z-[11]">
+        <TapeSection />
+      </div>
       <TestimonialsSection />
       <div id="about" className="pt-14 md:pt-0">
         <AboutSection />

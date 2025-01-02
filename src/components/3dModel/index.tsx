@@ -52,7 +52,7 @@ function Loader() {
 
 const Canvas3D = () => {
   return (
-    <div className="h-[100vh] w-[100vw] fixed">
+    <div className="h-[100vh] w-[100vw] fixed z-[10]">
       <Canvas
         gl={{ antialias: true }}
         dpr={[1, 1.5]}
